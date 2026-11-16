@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Interactive Product Showcase</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Loading Animation -->
+<div id="loader">
+<div class="spinner"></div>
+</div>
+
+<!-- Animated Navigation Menu -->
+<nav class="navbar">
+<div class="logo">MyShop <span class="icon">★</span></div>
+<ul class="nav-links">
+<li><a href="#">Home</a></li>
+<li><a href="#">Products</a></li>
+<li><a href="#">About</a></li>
+<li><a href="#">Contact</a></li>
+</ul>
+</nav>
+
+<!-- Hero Section with Animated Background -->
+<section class="hero">
+<div class="hero-content">
+<h1>Welcome to Future Products</h1>
+<p>Best tech products with interactive animations</p>
+</div>
+<div class="decorative"></div>
+</section>
+
+<!-- Featured Product Cards (6 minimum) -->
+<main class="products-container">
+<div class="product-card" style="--delay:0s">
+<img src="https://via.placeholder.com/300x200?text=Headphones" alt="Product">
+<h3>Wireless Headphones</h3>
+<p>R599.99</p>
+<button class="cta">Add to Cart</button>
+</div>
+<div class="product-card" style="--delay:0.2s">
+<img src="https://via.placeholder.com/300x200?text=Smartwatch" alt="Product">
+<h3>Smart Watch</h3>
+<p>R1299.00</p>
+<button class="cta">Add to Cart</button>
+</div>
+<div class="product-card" style="--delay:0.4s">
+<img src="https://via.placeholder.com/300x200?text=Speaker" alt="Product">
+<h3>Bluetooth Speaker</h3>
+<p>R450.00</p>
+<button class="cta">Add to Cart</button>
+</div>
+<div class="product-card" style="--delay:0.6s">
+<img src="https://via.placeholder.com/300x200?text=Mouse" alt="Product">
+<h3>Gaming Mouse</h3>
+<p>R350.00</p>
+<button class="cta">Add to Cart</button>
+</div>
+<div class="product-card" style="--delay:0.8s">
+<img src="https://via.placeholder.com/300x200?text=Stand" alt="Product">
+<h3>Laptop Stand</h3>
+<p>R299.00</p>
+<button class="cta">Add to Cart</button>
+</div>
+<div class="product-card" style="--delay:1s">
+<img src="https://via.placeholder.com/300x200?text=Hub" alt="Product">
+<h3>USB-C Hub</h3>
+<p>R499.00</p>
+<button class="cta">Add to Cart</button>
+</div>
+</main>
+
+<script>
+window.addEventListener('load', () => {
+document.getElementById('loader').style.display = 'none';
+});
+</script>
+</body>
+</html>
